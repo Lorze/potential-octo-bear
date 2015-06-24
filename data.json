@@ -1,0 +1,195 @@
+{"questions": [
+{
+  "title": "Le week-end dernier, Daniela (14 ans) est rentrée à la maison à 3 heures du matin et non à minuit comme convenu. Les parents discutent de l’incident avec des voisins. A qui donnez-vous raison?",
+  "answers": [
+    "« Chez nous, ça ne passerait pas. Elle serait privée de sorties pendant deux week-ends. Ça servirait aussi d’exemple aux copines. » ",
+    "« Je doute que ça fonctionne. Elle devrait plutôt apprendre à se responsabiliser. Si elle se réveille épuisée le lendemain matin, elle se rendra bien compte d’elle-même qu’il y a un souci. »",
+    "« Il faut punir, mais intelligemment. Qu’elle aide son petit frère à faire ses devoirs, ça serait beaucoup plus utile pour tout le monde. »",
+    "« Je ne crois pas au laxisme. Il faut la priver d’argent de poche pendant une semaine, elle apprendra vite la leçon. »"
+  ]
+},
+{
+  "title": "Un homme de 30 ans, sans antécédent, tue l’amant de sa femme de 20 coups de couteau. Il se rend ensuite, sans résistance, à la police. Dans une émission télévisée, la discussion du cas soulève un débat animé. Quel avis suivez-vous?",
+  "answers": [
+    "« Cet homme est un monstre ! De sang-froid, il a mis fin à une vie. Il doit payer. Pour ce genre de types, je ne vois qu’une seule sanction possible : sa place est derrière les barreaux jusqu’à la fin de sa vie. »",
+    "« Il est faux de représenter ces gens comme des monstres. La personnalité perturbée qui se cache derrière un tel acte nécessite plutôt une prise en charge thérapeutique. Il existe une vie après l’acte. Même pour les meurtriers. »",
+    "« A l’idée que cet homme se promène un jour à nouveau en liberté, mon sang se glace. La société doit se protéger contre ces malades. »",
+    "« Chaque détention pénitentiaire coûte une somme faramineuse. Ne serait-il pas plus intelligent d’utiliser cet argent pour soutenir psychologiquement et matériellement les proches de la victime, pour les aider à s’orienter vers un avenir meilleur? »"
+  ]
+},
+{
+  "title": "Engageriez-vous un meurtrier sorti de prison dans votre entreprise?"
+,
+  "answers": [
+    "oui",
+    "non"
+  ]
+},
+{
+  "title": "La peine de mort est-elle envisageable pour un crime particulièrement condamnable à vos yeux?",
+  "answers": [
+    "oui",
+    "non"
+  ]
+},
+{
+  "title": "Kevin, 16 ans, spraye « fuck the police » en grosses lettres sur le mur de l’école, fraîchement repeint. Pendant la réunion de la commission scolaire, plusieurs opinions s’opposent sur le type de sanction à infliger. Quel avis suivez-vous?",
+  "answers": [
+    "« Nous n’avons pas affaire ici à une farce de gamin, mais à un dommage à la propriété. Les parents de Kevin devraient le priver d’argent de poche, et lui confisquer sa bombonne de spray. Il comprendrait alors comment on se sent quand quelqu’un s’attaque à nos propres biens.»",
+    "« Ce que Kevin a fait est lié à son âge : un comportement exubérant, typique de l’adolescence. En somme, c’est simple : Kevin présente des excuses, il nettoie le mur, et l’affaire est réglée. »",
+    "« Kevin saisirait la prochaine occasion pour salir d’autres murs. Il faut veiller à ce que ce garçon ne sorte plus de la maison jusqu’à nouvel avis. »",
+    "« A mon avis, c’est exactement ce qu’il recherche et aurait un effet contre-productif. Parfois, deux mots d’une personne qu’on respecte suffisent pour que le délinquant comprenne les conséquences de ses actes et change son comportement. »"
+  ]
+},
+{
+  "title": "Un homme d’affaires (46 ans), qui passe beaucoup de temps dans sa voiture dans le cadre professionnel, se fait retirer son permis pour excès de vitesse sur l’autoroute. Il reprend pourtant le volant et se fait attraper. L’incident s’ébruite rapidement. Dans le bistrot du village, les opinions divergent. De quel côté vous rangez-vous ?",
+  "answers": [
+    "« Celui qui roule trop vite met la vie des autres en danger et ne devrait plus avoir le droit de conduire. Qu’on lui retire le permis ! C’est évident ! C’est la seule langue que ces chauffards comprennent. »",
+    "« Ils conduiraient alors simplement sans permis. Il serait plus efficace de les mettre au pilori en diffusant par exemple leur portrait pendant 30 secondes avant le début du télé-journal, pendant une semaine. »",
+    "« Le comportement d’un chauffard ne peut être changé que si on le confronte aux risques de ses actes. Des cours qui expliqueraient les conséquences d’une conduite trop rapide atteindraient mieux le but espéré. »",
+    "«  N’avons-nous pas tous déjà commis des fautes ? Les hommes d’affaires sont souvent sous pression et ne devraient pas être criminalisés pour des infractions de ce type. »"
+  ]
+},
+{
+  "title": "Avez-vous déjà donné une gifle à un enfant?",
+  "answers": [
+    "oui",
+    "non"
+  ]
+},
+{
+  "title": "Etes-vous favorable à ce que l’exécution d’une peine se fasse plus fréquemment sous surveillance électronique à domicile, plutôt qu’en prison?",
+  "answers": [
+    "oui",
+    "non"
+  ]
+},
+{
+  "title": "Voteriez-vous pour la construction d’une nouvelle prison avec une piscine sportive de 20 mètres?",
+  "answers": [
+    "oui",
+    "non"
+  ]
+},
+{
+  "title": "Il y a deux jours, 3000 litres de produit chimique de Silzer SA Peintures, une entreprise bien établie, se sont déversés dans la rivière du village. L’incident a provoqué la mort d’un grand nombre de poissons. La réunion extraordinaire de l’assemblée communale est chargée d’émotion. Prenez parti:",
+  "answers": [
+    "« L’incident est vraiment déplorable. Mais l’erreur est humaine. Il serait fatal de fragiliser par une sanction exagérée le plus important pourvoyeur d’emplois du village. »",
+    "« A quoi bon offrir des emplois dans un contexte qui menace l’environnement ? Une entreprise avec un tel potentiel de risques n’a pas sa place dans une commune résidentielle. Je plaide pour une fermeture immédiate de l’entreprise. Je souhaite que nos petits-enfants puissent encore pêcher et se baigner dans la rivière du village. »",
+    "« Le cas de Silzer SA Peintures n’est pas isolé. Il est temps de créer un label qui désigne les pratiques particulièrement polluantes. Les moutons noirs devraient être mis au pilori sur l’ensemble du territoire. Tout le monde serait alors plus prudent et chercherait à éviter tout incident. »",
+    "« L’on doit apprendre à tirer des leçons de ses erreurs.  L’entreprise devrait être tenue à participer à un programme de sauvegarde de l’environnement. Au-delà des questions d’environnement, il s’agit aussi de rétablir de la confiance entre la direction de l’entreprise et la population. »"
+  ]
+},
+{
+  "title": "La gifle devrait-elle être interdite?",
+  "answers": [
+    "oui",
+    "non"
+  ]
+}
+],
+"evaluation": [
+{
+  "answers": [
+	[10,10,3,0],
+	[0,0,2,10],
+	[0,0,10,5],
+	[10,6,2,0]
+  ]
+},
+{
+  "answers": [
+	[10,10,5,0],
+	[0,0,0,8],
+	[10,7,10,0],
+	[0,0,0,8]
+  ]
+},
+{
+  "answers": [
+	[0,0,5,10],
+	[10,10,5,0]
+  ]
+},
+{
+  "answers": [
+	[10,10,5,0],
+	[0,0,5,10]
+  ]
+},
+{
+  "answers": [
+	[9,5,5,0],
+	[0,0,3,7],
+	[7,10,4,7],
+	[0,0,5,5]
+  ]
+},
+{
+  "answers": [
+	[10,10,5,0],
+	[5,10,5,0],
+	[0,0,10,2],
+	[0,0,0,10]
+  ]
+},
+{
+  "answers": [
+	[10,10,5,0],
+	[0,0,5,10]
+  ]
+},
+{
+  "answers": [
+	[0,0,10,10],
+	[10,10,0,0]
+  ]
+},
+{
+  "answers": [
+	[0,0,8,10],
+	[10,10,0,0]
+  ]
+},
+{
+  "answers": [
+	[5,5,5,5],
+	[3,3,5,9],
+	[8,10,8,5],
+	[3,4,5,9]
+  ]
+},
+{
+  "answers": [
+	[0,0,5,10],
+	[10,10,5,0]
+  ]
+}
+]},
+"archetypes": [
+{
+  "name": "vengeur",
+  "color": "#46BFBD",
+  "highlight": "#5AD3D1",
+  "description": "Pour vous, la juste peine se définit en fonction du délit commis. Vous portez votre regard sur ce qui s’est passé et répondez en symétrie. Au fond, punir signifie pour vous : faire payer le délit, exercer une vengeance sur le délinquant, réaliser une justice compensatrice.[newLine]Fondamentalement, vous privilégiez une intervention conséquente et sévère aussi bien dans l’éducation et le monde professionnel, que dans les pratiques judiciaires et les exécutions des peines. Les punitions doivent faire mal pour qu’elles soient prises au sérieux. Que l’on vous désigne comme « autoritaire » ne vous pose pas de problème, car vous êtes persuadé-e que le délinquant ne tirera de leçon que d’une sanction qui est à la hauteur du délit commis. Celui qui ne sent pas vraiment le poids de la punition ne revient pas à la raison, il ne peut pas ressentir de remords, ni faire acte d’expiation. Et c’est cela, justement, qui est important pour vous. Vous n’avez jamais apprécié les méthodes de répression douce, notamment dans le domaine pédagogique.[newLine]Au quotidien, vous êtes opposé-e à la légalisation du cannabis, favorables aux longues peines d’emprisonnement et à l’expulsion rapide des « sans papiers ». Mais vous savez aussi que personne n’est infaillible. C’est pourquoi vous êtes prêt-e à fermer les yeux de temps à autre. Par exemple, dans le cas de délits insignifiants contre l’environnement ou les règles de la circulation."
+  },
+{
+  "name": "dissuasif",
+  "color": "#FDB45C",
+  "highlight": "#FFC870",
+  "description": "Pour vous, punir signifie aussi donner en exemple. Votre regard n’est pas tourné vers le passé, dans le but de vous venger, mais vers l’avenir, par souci pour la société. La sanction que vous préconisez doit à la fois avertir et dissuader le délinquant, mais aussi tous les délinquants potentiels. Ainsi, dans certains cas, parce que le bon fonctionnement de l’ensemble de la société vous tient à cœur, vous préconisez des mesures drastiques. La neutralisation des délinquants particulièrement dangereux est un prix que vous êtes prêt-e à payer dans le but de protéger la société.[newLine]Vous êtes persuadé-e que les punitions sévères peuvent avoir un effet dissuasif et stabilisant pour l’ordre social toujours fragile. Par conséquent, votre attitude en matière de punition est déterminée, sévère et autoritaire. Vous vous décrivez, au sens propre du terme, comme conservateur-trice. Vous voulez maintenir et protéger les règles et les normes en vigueur. Pour vous, l’ordre et la sécurité représentent des valeurs centrales : les personnes qui ne peuvent pas les respecter doivent être averties à temps. Vous ne doutez pas de l’efficacité du droit pénal, tout au plus, vous doutez parfois du sérieux de ceux qui l’appliquent.[newLine]Au quotidien, vous êtes conséquent. Vous punissez sévèrement, pour que l’incident ne se reproduise pas. Selon vous, les touristes de la criminalité, notamment les passeurs de drogue latino-américains, devraient être traités plus sévèrement afin d’éviter que ce type de cas ne fassent école. Il vous paraît déplacé que des détenus puissent regarder la télévision et écouter la radio dans leur cellule. La peine d’emprisonnement en perd sa valeur dissuasive — la prison n’est pas un hôtel ! Lorsque l’initiative populaire « Internement à vie pour les délinquants sexuels ou violents jugés très dangereux et non amendables » a été lancée, vous étiez parmi les premiers à la signer."
+  },
+{
+  "name": "éducateur",
+  "color": "#F7464A",
+  "highlight": "#FF5A5E",
+  "description": "Vous n’aimez pas parler de « punition ». Le terme d’ « éducation » vous convient mieux. Vous êtes convaincu-e qu’une société a besoin de normes et de règles pour la vie en communauté. Ces règles doivent être constamment ré-inculquées, rappelées en cas de transgression, et leur application doit être contrôlée. Les sanctions découlent de cette logique. Elles exigent de tous les délinquants une confrontation avec leur comportement déviant. Vous estimez que les sanctions constructives ne devraient pas éloigner les délinquants de la société, mais les y ramener. Selon vous, les sanctions devraient toujours également s’adresser à la société dans son ensemble. A votre avis, le fait de connaître l’existence des instances répressives contribue au respect des normes.[newLine]Lorsque vous punissez, vous le faites de manière réfléchie. Il est important pour vous de définir d’abord clairement les règles, puis de punir les transgressions de façon conséquente. Sur ce point, vous êtes inflexible. Une société ne peut fonctionner qu’ainsi. Vous savez qu’il n’est pas simple de punir de façon constructive. C’est pourquoi vous êtes ouvert-e à de nouvelles méthodes éducatives pour la famille, l’école, ou le milieu pénitencier. Vous portez un regard sceptique sur la tendance à prolonger les peines de prison ou sur les incarcérations à durée indéterminée.[newLine]Au quotidien, vous luttez contre la criminalisation excessive, notamment sur la question de la consommation de cannabis, ou des délits des jeunes. Selon vous, les problèmes de la petite délinquance ne peuvent pas être résolus par le droit pénal, mais par un travail préventif efficace. Dans les cas de délits graves, vous favorisez une incarcération qui s’appuie sur les connaissances actuelles en matière de prise en charge thérapeutique. Vous ne déviez que très rarement de cette position. Dans des cas graves de violence domestique, ou de décès d’innocents, occasionnés par des chauffards irresponsables, vous estimez que la neutralisation du délinquant prime, dans le but de protéger la société."
+  },
+{
+  "name": "réparateur",
+  "color": "#949FB1",
+  "highlight": "#A8B3C5",
+  "description": "Au fond, vous ne croyez pas à l’efficacité des sanctions. Vous doutez que les dépenses en matière de répression – amendes, procès, prisons, maisons d’arrêt – portent leurs fruits. Vous savez pourtant que l’appareil judiciaire est indispensable. Vous pensez aussi qu’entre l’instance répressive et la personne punie, les victimes demeurent en reste.[newLine]Confronté-e à ce dilemme, vous vous intéressez aux alternatives qui se concentrent toujours davantage sur les conséquences des délits. S’il faut réprimer, la sanction devrait prendre la forme d’une tentative de réconciliation entre le délinquant et la victime, ou tout au moins offrir une ébauche de réparation matérielle ou émotionnelle. Mais, vous aussi vous savez qu’il n’est pas possible de totalement abolir la punition. Le cas échéant, vous plaidez pour des peines qui misent complètement sur l’éducation. Vous saluez donc le développement de peines qui visent la réinsertion sociale. Vous soutenez des sanctions alternatives, telles que les mesures de compensation entre auteurs et victimes, la médiation pénale, la surveillance électronique, ou les travaux d’intérêt général. Vous pensez qu’un débat approfondi sur les délits et leurs conséquences est important, car vous estimez que son impact est positif sur l’auteur, la victime et l’ordre social. Vous appréciez aussi le fait que le coût de ces formes de sanction est nettement inférieur à celui des peines d’emprisonnement traditionnelles, car les délinquants sont mieux réintégrés dans la société.[newLine]Au quotidien, vous faites appel à la responsabilité individuelle. Lorsque cela ne suffit pas, vous cherchez la discussion conciliante pour aboutir à une solution sans recours à la punition. Vous vous décrivez comme anti-autoritaire, tolérant-e, libéral-e. La victime est importante à vos yeux. Et pourtant, vous cherchez à comprendre le délinquant avant de penser à la sanction. S’il est arrivé quelque chose qui mérite une « punition », une excuse bien formulée, au bon moment, suffit dans la plupart des cas. Vous rêvez d’une société, plus tolérante et moins inquiète."
+}
+]
+}

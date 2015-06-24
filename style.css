@@ -1,0 +1,355 @@
+@font-face {
+  font-family: 'Gothic';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Didact Gothic'), local('DidactGothic'), url('font/DidactGothic.woff2') format('woff2'),
+  url('font/DidactGothic.woff') format('woff');
+}
+
+body{
+	font-family: 'Gothic';
+	margin: 0;
+	overflow: hidden;
+	-webkit-user-select: none;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+.outer {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.middle {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#start {
+	height: 100%;
+    width: 1010px;
+
+    transition: margin-left 1s ease;
+}
+
+#start .firstLine {
+	width: 200px;      
+    height: 100%;
+    float: left;
+    display: table;      
+    position: absolute;
+}
+
+
+#start .firstLine .grayBeam{
+	height: 660px;
+	background-color: #eee;
+}
+
+.quizTitle{
+	position: absolute;
+	font-size: 25px;
+	width: 694px;
+	z-index: 1;
+	margin: 400px 0 0 270px;
+}
+
+.quizTitle h1, .quizTitle div{
+	background-color: red;
+	padding: 0 20px 20px 20px;
+}
+
+.quizTitle h1 {
+	font-size: 80px;
+    padding: 0 20px;
+    margin: 0;
+    font-weight: normal;
+}
+
+#start .startLine {
+	width: 190px;
+	height: 100%;
+	float: left;
+
+	margin: 0px 5px 0 5px;
+	background-color: #eee;
+}
+
+#start .startLine .tile{
+	width: 180px;
+	height:	180px;
+	margin: 5px;
+
+	background-color: white;
+    font-weight: bold;
+    font-size: 30px;
+
+    transition: margin-top 1s ease;
+}
+
+#start .startLine .tile .image{
+	background-image: url('img/webcam.jpg');
+    width: 180px;
+    height: 160px;
+    background-size: cover;
+    background-position: center;
+}
+
+#start .startLine .tile .profile{
+	padding: 3px 0;
+    text-align: center;
+    position: relative;
+    top: -24px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+#start .startLine .starting{
+	cursor: pointer;
+    background-color: red;
+}
+
+#start .startLine .starting .profile{
+	background-color: rgba(255, 0, 0, 0.8);
+}
+
+.questionContainer {
+	height: 600px;
+	padding: 30px;
+
+    background-color: #eee;
+	position:relative;
+	overflow: hidden;
+}
+
+.questionSlider {
+	height: 600px;
+	transition: margin-left 1s ease, color 1s ease;
+
+}
+
+.webcam{
+	position: relative;
+    max-width: 640px !important;
+    padding: 0 30px;
+}
+
+.webcam .buttons{
+	margin: 30px auto 0 auto;
+    width: 190px;
+}
+
+.webcam .buttons img{
+	margin: 0 20px;
+
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+}
+
+.webcam .buttons img.faded{
+	opacity: 0.2;
+}
+
+.webcam canvas{
+	position: absolute;
+	top: 30px;
+}
+
+.webcam video{
+	background-image: url("img/webcam.jpg");
+    background-size: cover;
+    margin-top: 30px;
+}
+
+.question {
+    max-width: 580px;
+    float: left;
+    padding: 0 15px;
+    transition: color 200ms ease;
+}
+
+.question.faded{
+	color: #bbb;
+	cursor: pointer;
+}
+
+.question > h1{
+    text-align: justify;
+    padding-right: 5px;
+    font-size: 20;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.question .answers{
+	border-top: 10px solid red;
+    padding: 30px 0;
+    transition: border 1s ease;
+}
+
+.question.faded .answers{
+    border-color: #999;
+}
+
+.question .answer .inner{
+	cursor: pointer;
+	padding: 5px;
+}
+
+.question .selected .inner{
+	background-color: red;
+}
+
+.question.faded .selected .inner{
+	background-color:  #999;
+}
+
+#evaluateButton {
+	width: 150px;
+    height: 600px;
+    float: left;
+    background-size: 100px;
+    padding: 0 30px;
+
+	background-image: url("img/next.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	cursor: pointer;
+}
+
+#evaluateButton .text{
+    padding-top: 350px;
+    width: 150px;
+    text-align: center;
+    font-size: 25px;
+}
+
+#evaluateButton .warning{
+	color: red;
+	display: none;
+}
+
+.result {
+	max-width: 2140px;
+	float: left;
+	transition: margin-left 1s ease;
+}
+
+.result .profile{
+    margin-top: 30px;
+    text-align: right;
+    width: 480px;
+    height: 65px;
+    font-size: 50px;
+}
+.result .profile span{
+	color: #bbb;
+	letter-spacing: -3px;
+}
+
+.result canvas{
+	background-image: url("img/webcam.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#unknownPicture{
+	position: absolute;
+	top: 125px;
+	width: 480px;
+	height: 480px;
+
+	background-image: url("img/noImage.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.result .description{
+	float: left;
+    max-width: 1000px;
+    font-size: 17px;
+
+	margin-top: 30px;
+	margin-left: 90px;
+}
+
+.result .description h1{
+	float: left;
+    font-size: 40px;
+    margin: 15px 20px 0 0;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+.result .description h1:first-child{
+    padding: 0 10px;
+    margin: 0 40px 0 0;
+    font-size: 50px;
+}
+
+.result .description .chart{
+	float: left;
+    clear: left;
+    margin-right: 10px;
+    width: 240px;
+    height: 335px;
+    text-align: right;
+    font-weight: bold;
+}
+
+#chart{
+	width: 240px;
+	height: 240px;
+	background: none;
+}
+
+#archetype{
+	color:black;
+	   letter-spacing: -2px;
+}
+
+#restartButton{
+	width: 70px;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    right: 250px;
+    margin-top: 33px;
+
+    background-image: url("img/no.png");
+    background-size: cover;
+    cursor: pointer;
+}
+
+#logo{
+	position: fixed;
+    top: 0;
+    right: 0;
+    margin: 10px 30px 0 0;
+}
+
+#logo img{
+	height: 70px;
+    margin-top: 3px;
+}
+
+.intro{
+	max-width: 580px;
+    float: left;
+	padding-right: 300px;
+	font-size: 20px;
+}
+
+.intro h1{
+	font-weight: normal;
+    font-size: 50px;
+}
+
+.intro p:last-child{
+	font-weight: bold;
+}
+
