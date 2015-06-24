@@ -21,14 +21,23 @@ var app = express ();
 app.use(serveStatic(__dirname + '\\quiz\\'));
 
 app.get('/getFace', function (req, res) {
-	var keys = Object.keys(faces);
-	var index = keys[Math.floor(keys.length * Math.random())];
+	if(faces.length == 0){
+		res.writeHead(200, {'Content-Type': 'text/plain'});
+		res.end(JSON.stringify({
+			"file": "img/unknownPerson.png",
+			"archetype": Math.floor(Math.random() * 4)
+		})); 
+	}
+	else {
+		var keys = Object.keys(faces);
+		var index = keys[Math.floor(keys.length * Math.random())];
 
-	res.writeHead(200, {'Content-Type': 'text/plain'});
-	res.end(JSON.stringify({
-		"file": index + ".png",
-		"archetype": faces[index]
-	})); 
+		res.writeHead(200, {'Content-Type': 'text/plain'});
+		res.end(JSON.stringify({
+			"file": "faces/" + index + ".png",
+			"archetype": faces[index]
+		})); 
+	}
 })
 
 app.post('/upload', urlencodedParser, function (req, res) {

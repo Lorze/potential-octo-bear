@@ -231,7 +231,7 @@ function createTile() {
         url: 'getFace',
         dataType: 'json',
         success: function(json) {
-            image.src = "faces/" + json.file;
+            image.src = json.file;
 
             if (Math.random() * 10 <= 1 || startsCreated <= 1) {
                 startsCreated++;
