@@ -24,7 +24,7 @@ app.get('/getFace', function (req, res) {
 	if(faces.length == 0){
 		res.writeHead(200, {'Content-Type': 'text/plain'});
 		res.end(JSON.stringify({
-			"file": "img/unknownPerson.png",
+			"file": "img/noImage.png",
 			"archetype": Math.floor(Math.random() * 4)
 		})); 
 	}
