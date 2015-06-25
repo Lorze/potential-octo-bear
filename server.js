@@ -7,14 +7,9 @@ var writeIndex = 0;
 var maxImageCount = 10;
 var dataSaved = false;
 
-var statistics;
-var faces;
+var statistics = null;
+var faces = null;
 loadData();
-
-//do something when app is closing
-process.on('exit', exitHandler.bind(null,{cleanup:true}));
-process.on('SIGINT', exitHandler.bind(null, {exit:true}));
-process.on('uncaughtException', exitHandler.bind(null, {exit:true}));
 
 var urlencodedParser = bodyParser.urlencoded({ extended: true, limit: '1mb' });
 var app = express ();
@@ -76,6 +71,8 @@ function writeFace(base64Data, path, archetype)
 
 		writeIndex ++;
 		writeIndex = writeIndex % 10;
+
+		saveData();
 	});
 }
 
@@ -98,20 +95,18 @@ function loadData()
 	});
 }
 
-function exitHandler(options, err) {
-	if(!dataSaved)
+function saveData(){
+	if(faces != null && statistics != null)
 	{
-		fs.writeFileSync("data.json", JSON.stringify({
+		fs.writeFile("data.json", JSON.stringify({
 			"faces":faces,
 			"statistics": statistics,
 			"writeIndex": writeIndex
-		}));
-		dataSaved = true;
-		console.log("data saved")
+		}), function(err){
+			if(err)
+				console.log(err);
+			else
+				console.log("data saved");
+		});
 	}
-
-	if (err)
-		console.log(err.stack);
-	if (options.exit)
-		process.exit();
 }

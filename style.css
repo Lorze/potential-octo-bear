@@ -14,7 +14,7 @@ body{
 }
 
 ::-webkit-scrollbar { 
-    display: none; 
+    display: none;
 }
 
 .outer {
@@ -234,7 +234,8 @@ body{
 }
 
 .result {
-	max-width: 2140px;
+    overflow: auto;
+	width: 2140px;
 	float: left;
 	transition: margin-left 1s ease;
 }
@@ -351,5 +352,17 @@ body{
 
 .intro p:last-child{
 	font-weight: bold;
+}
+
+.arechetypeMapWrap{
+    background-color: white;
+    padding: 10px;
+    float: left;
+    margin-top: 35px;
+    margin-left: 60px;
+}
+
+#archetypeMap{
+    height: 530px;
 }
 

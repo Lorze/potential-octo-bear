@@ -327,6 +327,7 @@ function initQuestions(json) {
 
     data = json;
     initArchetypes();
+    document.getElementsByClassName("result")[0].style.width = document.body.offsetWidth + "px";
 }
 
 function initArchetypes() {
@@ -412,4 +413,5 @@ function switchArchetypeDescription(archetype) {
     }
 
     document.getElementById("archetypeDescription").innerHTML = data.archetypes[archetype].description.replace(/\[newLine\]/g, "<br><br>");
+    document.getElementById("archetypeMap").src = "img/" + data.archetypes[archetype].map;
 }
